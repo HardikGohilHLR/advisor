@@ -1,0 +1,25 @@
+/* Common css */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Manrope', sans-serif; }
+ol, ul { list-style: none; } 
+body { overflow-x: hidden;  }
+a { display: inline-block; text-decoration: none; }
+img { width: 100%; font-size: 0; }
+input { outline: none; }
+button { background: none; outline: none; border: none; }
+
+
+.content { background-color: #1f2632; height: 100vh; width: 100%; display: flex; align-items: center; justify-content: center; }
+.advice-block-wpr { width: 100%; max-width: 600px; position: relative; background-color: #323a49; padding: 40px; border-radius: 15px; text-align: center; }
+.advice-number { margin-bottom: 25px; }
+.advice-number h3 { font-size: 12px; line-height: 18px; font-family: 'Manrope', sans-serif; font-weight: 800; text-transform: uppercase; color: #52ffa8; margin-bottom: 25px; letter-spacing: 3px; }
+.advice-content h2 { font-size: 28px; line-height: 36px; font-family: 'Manrope', sans-serif; font-weight: 700; color: #cee3e9; }
+.line { margin: 40px 0 20px; }
+.advice-refresh { width: 50px; height: 50px; background-color: #52ffa8; display: flex; align-items: center; justify-content: center; border-radius: 50%; position: absolute; left: 50%; transform: translateX(-50%); bottom: -25px; cursor: pointer; } 
+.advice-refresh svg { width: 20px; }
+.skeleton { margin: 0 auto 10px; background: linear-gradient( 90deg, hsl(217, 19%, 38%), hsl(193, 38%, 86%) , hsl(217, 19%, 38%) ); background-size: 200%; animation: loader 1s infinite reverse;}
+  
+@keyframes loader {
+    from { background-position: -100% 0; }
+    to { background-position: 100% 0; }
+}
+  
